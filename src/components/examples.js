@@ -14,7 +14,7 @@ module.exports = [
             'import "std"\n' +
             '\n' +
             'fun main() {\n' +
-            '  var n = 41' +
+            '  var n = 41\n' +
             '  var result = fib(n)\n' +
             '  printf("fib(%d) = %d\\n".cstring(), n, result)\n' +
             '}\n' +
@@ -34,7 +34,7 @@ module.exports = [
             'var memo: [100]int\n' +
             '\n' +
             'fun main() {\n' +
-            '  var n = 43' +
+            '  var n = 43\n' +
             '  var result = fib(n)\n' +
             '  printf("fib(%d) = %ld\\n".cstring(), n, result)\n' +
             '}\n' +
