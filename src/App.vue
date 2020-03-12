@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Header />
-    <ExampleList :selected="program" @input="program = $event"/>
     <Editor :program="program" @input="program = $event"/>
+    <ExampleList :selected="program" @input="program = $event"/>
     <RunButton name="Run" :program="program" :stdin="stdin" @received="output = $event"/>
     <TextArea label="Stdin" :content="stdin" @input="stdin = $event" />
     <TextArea label="Output" :content="output" @input="output = $event" :read-only="true" />
