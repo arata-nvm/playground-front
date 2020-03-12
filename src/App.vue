@@ -29,7 +29,7 @@ export default {
   },
   data() {
     return {
-      program: "import \"std\"\nfun main() {\n  println(\"Hello World!\")\n}",
+      program: "import \"std\"\n\nfun main() {\n  println(\"Hello World!\")\n}",
       stdin: "",
       output: "",
     }
