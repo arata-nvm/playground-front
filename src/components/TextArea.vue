@@ -1,7 +1,7 @@
 <template>
     <div class="textarea-wrapper">
         <label class="textarea-label" :for="label">{{ label }}</label>
-        <textarea class="textarea-box" v-model="content" :id="label" :readonly="readOnly" />
+        <textarea class="textarea-box" v-model="text" :id="label" :readonly="readOnly" />
     </div>
 </template>
 
