@@ -13,7 +13,6 @@ export default {
 <style scoped>
 .header-wrapper {
     background-color: #fff;
-    position: sticky;
     top: 0;
     text-align: left;
 }
